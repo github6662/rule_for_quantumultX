@@ -1,9 +1,13 @@
-#番茄小说广告屏蔽
+#!name=番茄小说广告屏蔽
+#!desc=屏蔽番茄小说底部和章末广告，且不影响金币获取
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 [Rule]
-# 番茄小说
+# 番茄小说 version = 3.1
 DOMAIN,p6-ad-sign.byteimg.com,REJECT
 DOMAIN,p9-ad-sign.byteimg.com,REJECT
-DOMAIN-SUFFIX,byteimg.com,DIRECT
 DOMAIN,i.snssdk.com,REJECT
 DOMAIN,i-lq.snssdk.com,REJECT
 DOMAIN,dig.bdurl.net,REJECT
@@ -15,7 +19,6 @@ DOMAIN,tnc3-alisc1.snssdk.com,REJECT
 DOMAIN,security-lq.snssdk.com,REJECT
 DOMAIN,tnc3-aliec2.snssdk.com,REJECT
 DOMAIN,is.snssdk.com,REJECT
-DOMAIN,i.snssdk.com,REJECT
 
 DOMAIN,v6-novelapp.ixigua.com,REJECT
 DOMAIN,*novelapp.ixigua.com,REJECT
@@ -30,6 +33,9 @@ DOMAIN-SUFFIX,pglstatp-toutiao.com,REJECT
 DOMAIN-SUFFIX,byteorge.com,REJECT
 DOMAIN-SUFFIX,bytegoofy.com,REJECT
 DOMAIN-SUFFIX,bytedance.com,REJECT
+
+# 番茄视频广告页的sdk agent都是ttplayer
+USER-AGENT,ttplayer*,REJECT
 
 IP-CIDR,49.71.37.101/32,REJECT,no-resolve
 IP-CIDR,117.71.105.23/32,REJECT,no-resolve
@@ -58,5 +64,9 @@ IP-CIDR,180.96.2.114/32,REJECT,no-resolve
 # 下面两条来自他人,暂不知是哪个app
 ^https?:\/\/.+?\.snssdk\.com\/motor\/operation\/activity\/display\/config\/V2\/ _ reject
 
+^https?:\/\/.+\.(pglstatp-toutiao|pstatp)\.com\/(ad-app-package|ad)\/.+ _ reject
+^https?:\/\/adim\.pinduoduo\.com\/.+\/toutiao\?.+ _ reject
+^https?:\/\/v(\d)+-novelapp\.fqnovelvod\.com\/.+\/video\/.+ _ reject
+
 [MITM]
-hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com
+hostname =*.pangolin-sdk-toutiao,*.pangolin-sdk-toutiao.*,*.pstatp.com,*.pstatp.com.*,*.pglstatp-toutiao.com.*,*.pglstatp-toutiao.com,gurd.snssdk.com,gurd.snssdk.com.*,*default.ixigua.com,adim.pinduoduo.com,*.fqnovelvod.com

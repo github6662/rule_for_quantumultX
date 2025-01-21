@@ -1,3 +1,9 @@
+#!name=规则修正
+#!desc=修正一些未被匹配识别的域名走代理或直连,Proxy请指向你的代理节点
+#!openUrl=
+#!author=zqzess
+#!homepage=https://github.com/zqzess/rule_for_quantumultX
+#!icon=
 [Rule]
 #小绿人
 DOMAIN-SUFFIX,greenmangaming.com,DIRECT
@@ -75,3 +81,13 @@ DOMAIN-SUFFIX,push.apple.com,DIRECT
 DOMAIN-SUFFIX,jddebug.com,REJECT
 #ios黑科技
 DOMAIN-SUFFIX,ivapp.cn,PROXY
+#
+DOMAIN,adjd.scdsvdsczx.cn,REJECT
+DOMAIN,rr3---sn-ni57rn7d.gvt1.com,REJECT
+DOMAIN,pagead2.googleadservices.com,REJECT
+
+#pikpak网盘
+DOMAIN,access.mypikpak.com,PROXY
+
+#scriptable
+DOMAIN,gallery.scriptable.app,PROXY

@@ -1,6 +1,7 @@
-# China Bank
+# China Banks
 # > Agricultural Bank of China
 HOST-SUFFIX,abchina.com,Mainland
+HOST-SUFFIX,abchina.com.cn,Mainland
 
 # > Bank of China
 HOST-SUFFIX,boc.cn,Mainland
@@ -8,6 +9,7 @@ HOST-SUFFIX,boc.cn,Mainland
 # > China Citic Bank
 HOST-SUFFIX,citicbank.com,Mainland
 HOST-SUFFIX,ecitic.com,Mainland
+HOST-SUFFIX,ecitic.net,Mainland
 
 # > China Construction Bank
 HOST-SUFFIX,ccb.com,Mainland
@@ -19,7 +21,7 @@ HOST-SUFFIX,cebbank.com,Mainland
 # > China Merchants Bank
 USER-AGENT,cmb*,Mainland
 HOST-SUFFIX,cmbchina.com,Mainland
-HOST-SUFFIX,cmbimg,Mainland
+HOST-SUFFIX,cmbimg.com,Mainland
 HOST-SUFFIX,cmbt.cn,Mainland
 HOST-SUFFIX,mbcloud.com,Mainland
 
@@ -35,19 +37,10 @@ HOST-SUFFIX,pingan.com.cn,Mainland
 # > Beplay
 HOST-KEYWORD,beplay,Mainland
 
-# > Blizzard
-USER-AGENT,hearthstone*,Mainland
-HOST,cdp.cloud.unity3d.com,Mainland
-HOST-SUFFIX,battle.net,Mainland
-HOST-SUFFIX,battlenet.com,Mainland
-HOST-SUFFIX,blizzard.com,Mainland
-
 # > Microsoft
 USER-AGENT,Microsoft*,Mainland
 HOST-KEYWORD,microsoft,Mainland
-HOST-SUFFIX,ms,Mainland
-HOST-SUFFIX,bing.com,Mainland
-HOST-SUFFIX,bing.net,Mainland
+HOST-WILDCARD,windows-*.net,Mainland
 HOST-SUFFIX,hotmail.com,Mainland
 HOST-SUFFIX,live.com,Mainland
 HOST-SUFFIX,live.net,Mainland
@@ -68,6 +61,7 @@ HOST-SUFFIX,windows.com,Mainland
 HOST-SUFFIX,windows.net,Mainland
 HOST-SUFFIX,xbox.com,Mainland
 HOST-SUFFIX,xboxlive.com,Mainland
+HOST-SUFFIX,ms,Mainland
 
 # > Prior
 HOST,client.amplifi.com,Mainland
@@ -81,9 +75,6 @@ HOST-SUFFIX,zmzfile.com,Mainland
 
 # > Sony
 USER-AGENT,RemotePlay*,Mainland
-HOST-SUFFIX,playstation.com,Mainland
-HOST-SUFFIX,playstation.net,Mainland
-HOST-SUFFIX,playstationnetwork.com,Mainland
 HOST-SUFFIX,sony.com,Mainland
 HOST-SUFFIX,sonyentertainmentnetwork.com,Mainland
 
@@ -102,7 +93,7 @@ IP-CIDR,182.254.116.0/24,Mainland
 
 # > Mainland
 HOST-SUFFIX,10010.com,Mainland
-HOST-SUFFIX,10089.cn,Mainland
+HOST-SUFFIX,10086.cn,Mainland
 HOST-SUFFIX,12306.cn,Mainland
 HOST-SUFFIX,12306.com,Mainland
 HOST-SUFFIX,126.net,Mainland
@@ -116,8 +107,10 @@ HOST-SUFFIX,36kr.com,Mainland
 HOST-SUFFIX,51ym.me,Mainland
 HOST-SUFFIX,58.com,Mainland
 HOST-SUFFIX,8686c.com,Mainland
+HOST-SUFFIX,95516.com,Mainland
 HOST-SUFFIX,abercrombie.com,Mainland
 HOST-SUFFIX,adobesc.com,Mainland
+HOST-SUFFIX,aiaa.org,Mainland
 HOST-SUFFIX,air-matters.com,Mainland
 HOST-SUFFIX,air-matters.io,Mainland
 HOST-SUFFIX,airhotels.cn,Mainland
@@ -141,7 +134,6 @@ HOST-SUFFIX,baidupcs.com,Mainland
 HOST-SUFFIX,bdimg.com,Mainland
 HOST-SUFFIX,bdstatic.com,Mainland
 HOST-SUFFIX,beatsbydre.com,Mainland
-HOST-SUFFIX,bet365.com,Mainland
 HOST-SUFFIX,broadcasthe.net,Mainland
 HOST-SUFFIX,caiyunapp.com,Mainland
 HOST-SUFFIX,ccgslb.com,Mainland
@@ -150,7 +142,6 @@ HOST-SUFFIX,chinacache.net,Mainland
 HOST-SUFFIX,chinaz.com,Mainland
 HOST-SUFFIX,chunbo.com,Mainland
 HOST-SUFFIX,chunboimg.com,Mainland
-HOST-SUFFIX,clashroyaleapp.com,Mainland
 HOST-SUFFIX,clouddn.com,Mainland
 HOST-SUFFIX,cloudsigma.com,Mainland
 HOST-SUFFIX,cloudxns.net,Mainland
@@ -160,11 +151,13 @@ HOST-SUFFIX,cnbeta.com,Mainland
 HOST-SUFFIX,cnbetacdn.com,Mainland
 HOST-SUFFIX,chdbits.co,Mainland
 HOST-SUFFIX,cnlang.org,Mainland
+HOST-SUFFIX,coolapk.com,Mainland
 HOST-SUFFIX,cz88.net,Mainland
 HOST-SUFFIX,dct-cloud.com,Mainland
 HOST-SUFFIX,didialift.com,Mainland
 HOST-SUFFIX,didistatic.com,Mainland
 HOST-SUFFIX,digicert.com,Mainland
+HOST-SUFFIX,dler.cloud,Mainland
 HOST-SUFFIX,douban.com,Mainland
 HOST-SUFFIX,doubanio.com,Mainland
 HOST-SUFFIX,douyin.com,Mainland
@@ -175,8 +168,6 @@ HOST-SUFFIX,duokan.com,Mainland
 HOST-SUFFIX,duoshuo.com,Mainland
 HOST-SUFFIX,dytt8.net,Mainland
 HOST-SUFFIX,easou.com,Mainland
-HOST-SUFFIX,ecitic.com,Mainland
-HOST-SUFFIX,ecitic.net,Mainland
 HOST-SUFFIX,eudic.net,Mainland
 HOST-SUFFIX,ewqcxz.com,Mainland
 HOST-SUFFIX,feng.com,Mainland
@@ -185,6 +176,7 @@ HOST-SUFFIX,ford.com,Mainland
 HOST-SUFFIX,frdic.com,Mainland
 HOST-SUFFIX,fresh-ideas.cc,Mainland
 HOST-SUFFIX,gameloft.com,Mainland
+HOST-SUFFIX,garmin.com,Mainland
 HOST-SUFFIX,geetest.com,Mainland
 HOST-SUFFIX,godic.net,Mainland
 HOST-SUFFIX,goodread.com,Mainland
@@ -209,6 +201,7 @@ HOST-SUFFIX,ifeng.com,Mainland
 HOST-SUFFIX,ifengimg.com,Mainland
 HOST-SUFFIX,images-amazon.com,Mainland
 HOST-SUFFIX,img4me.com,Mainland
+HOST-SUFFIX,ipapark.com,Mainland
 HOST-SUFFIX,ithome.com,Mainland
 HOST-SUFFIX,ixdzs.com,Mainland
 HOST-SUFFIX,jd.com,Mainland
@@ -230,6 +223,7 @@ HOST-SUFFIX,lucifr.com,Mainland
 HOST-SUFFIX,luoo.net,Mainland
 HOST-SUFFIX,lxdns.com,Mainland
 HOST-SUFFIX,mai.tn,Mainland
+HOST-SUFFIX,meituan.com,Mainland
 HOST-SUFFIX,meizu.com,Mainland
 HOST-SUFFIX,metatrader4.com,Mainland
 HOST-SUFFIX,metatrader5.com,Mainland
@@ -275,7 +269,6 @@ HOST-SUFFIX,rarbg.to,Mainland
 HOST-SUFFIX,redacted.ch,Mainland
 HOST-SUFFIX,rrmj.tv,Mainland
 HOST-SUFFIX,ruguoapp.com,Mainland
-HOST-SUFFIX,sandai.net,Mainland
 HOST-SUFFIX,sf-express.com,Mainland
 HOST-SUFFIX,sinaapp.com,Mainland
 HOST-SUFFIX,sinaimg.cn,Mainland
@@ -300,6 +293,7 @@ HOST-SUFFIX,taobao.com,Mainland
 HOST-SUFFIX,tawk.link,Mainland
 HOST-SUFFIX,tawk.to,Mainland
 HOST-SUFFIX,tencent.com,Mainland
+HOST-SUFFIX,tencent-cloud.net,Mainland
 HOST-SUFFIX,tenpay.com,Mainland
 HOST-SUFFIX,tianyancha.com,Mainland
 HOST-SUFFIX,tietuku.com,Mainland
@@ -329,6 +323,7 @@ HOST-SUFFIX,werewolf.53site.com,Mainland
 HOST-SUFFIX,wkcdn.com,Mainland
 HOST-SUFFIX,xdrig.com,Mainland
 HOST-SUFFIX,xhostfire.com,Mainland
+HOST-SUFFIX,xhscdn.com,Mainland
 HOST-SUFFIX,xiaohongshu.com,Mainland
 HOST-SUFFIX,xiaojukeji.com,Mainland
 HOST-SUFFIX,xiaomi.com,Mainland
@@ -347,6 +342,8 @@ HOST-SUFFIX,yinxiang.com,Mainland
 HOST-SUFFIX,yixia.com,Mainland
 HOST-SUFFIX,ykimg.com,Mainland
 HOST-SUFFIX,youdao.com,Mainland
+HOST-SUFFIX,ysepay.cn,Mainland
+HOST-SUFFIX,ysepay.com,Mainland
 HOST-SUFFIX,yunjiasu-cdn.net,Mainland
 HOST-SUFFIX,zealer.com,Mainland
 HOST-SUFFIX,zgslb.net,Mainland
@@ -355,8 +352,6 @@ HOST-SUFFIX,zhihu.com,Mainland
 HOST-SUFFIX,zhimg.com,Mainland
 HOST-SUFFIX,zimuzu.tv,Mainland
 HOST-SUFFIX,zmz002.com,Mainland
+HOST-SUFFIX,gov.cn,Mainland
 HOST-SUFFIX,cn,Mainland
 IP-CIDR,1.255.62.0/24,Mainland
-
-# GEOIP 
-GEOIP,CN,Mainland
